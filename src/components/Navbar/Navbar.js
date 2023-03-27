@@ -9,7 +9,11 @@ function Navbar() {
           <li>About us</li>
           <li>Blogs</li>
           <li>Contacts</li>
+          <li>Contacts</li>
+          <li>Contacts</li>
+          <li>Contacts</li>
         </ul>
+          
       </div>
 
 
