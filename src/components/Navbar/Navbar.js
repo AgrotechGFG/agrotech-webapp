@@ -10,7 +10,7 @@ function Navbar() {
           <img id='logo' src='/logo.jpg'></img>
         </div>
         <nav className='navigation-bar'>
-        
+
           <ul >
             <li className='class-links'><span><a>About Us</a></span>
               <ul className='about-toggle'>
@@ -38,20 +38,7 @@ function Navbar() {
         </div>
 
 
-      <div>
-        <ul>
-          <li>Home</li>
-          <li>About us</li>
-          <li>Blogs</li>
-          <li>Contacts</li>
-          <li>Contacts</li>
-          <li>Contacts</li>
-          <li>Contacts</li>
-        </ul>
-          
-
       </div>
-
 
 
 
