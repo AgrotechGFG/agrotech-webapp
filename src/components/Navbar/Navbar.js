@@ -38,16 +38,7 @@ function Navbar() {
         </div>
 
 
-      <div>
-        <ul>
-          <li>Home</li>
-          <li>About us</li>
-          <li>Blogs</li>
-          <li>Contacts</li>
-          <li>Contacts</li>
-          <li>Contacts</li>
-          <li>Contacts</li>
-        </ul>
+      
           
 
       </div>
