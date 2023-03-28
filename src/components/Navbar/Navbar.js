@@ -4,12 +4,13 @@ import Button from '../buttons/Button'
 function Navbar() {
   return (
     <>
+
       <div className='active'>
         <div>
           <img id='logo' src='/logo.jpg'></img>
         </div>
         <nav className='navigation-bar'>
-          {/* <img id='logo' src='/logo.jpg'></img> */}
+        
           <ul >
             <li className='class-links'><span><a>About Us</a></span>
               <ul className='about-toggle'>
@@ -35,6 +36,19 @@ function Navbar() {
           <Button type="Buy Now" />
 
         </div>
+
+
+      <div>
+        <ul>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Blogs</li>
+          <li>Contacts</li>
+          <li>Contacts</li>
+          <li>Contacts</li>
+          <li>Contacts</li>
+        </ul>
+          
 
       </div>
 
