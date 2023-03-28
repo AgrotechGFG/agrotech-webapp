@@ -1,0 +1,89 @@
+.hidden {
+    height: 4rem;
+    width: 100%;
+    z-index: 40;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .08);
+    position: fixed;
+    top: -80px;
+    transition: 0.3s linear;
+
+}
+
+
+.active {
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+
+    /* justify-content: center; */
+    align-items: center;
+    background: #D9D9D94A;
+    justify-content: space-between;
+
+
+}
+
+
+.navigation-bar {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* justify-content: space -between; */
+    flex-wrap: nowrap;
+
+}
+
+
+
+
+#logo {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 100px;
+}
+
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+
+ul li {
+    padding: 20px 20px;
+}
+
+.nav-right {
+
+    display: flex;
+    /* margin-right: 50px; */
+    gap: 30px;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+
+
+.class-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+
+#toggle {
+    width: 20px;
+    height: 10px;
+}
+
+
+.about-toggle {
+    display: none;
+}
