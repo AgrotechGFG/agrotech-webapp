@@ -2,12 +2,29 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Button from './components/buttons/Button';
+import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
+import AboutUs from './pages/AboutUs';
+import Services from './pages/Services';
+import Products from './pages/Products';
+import News from './pages/News';
+import Blog from './pages/Blog';
+
 function App() {
   return (
-    <div className="App">
+
+    <Router>
+
       <Navbar />
-      <h1>hello</h1>
-    </div>
+      <Routes>
+        <Route path='/aboutus' Component={AboutUs}></Route>
+        <Route path='/services' Component={Services}></Route>
+        <Route path='/products' Component={Products}></Route>
+        <Route path='/news' Component={News}></Route>
+        <Route path='/blog' Component={Blog}></Route>
+      </Routes>
+
+    </Router>
+
   );
 }
 
