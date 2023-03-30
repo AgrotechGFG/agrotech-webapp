@@ -5,6 +5,7 @@ import Services from './Services';
 import Products from './Products';
 import News from './News';
 import Blog from './Blog';
+import BuyNow from './BuyNow';
 import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
 import '../components/home.css'
 
@@ -20,6 +21,7 @@ function Home() {
                     <Route path='/products' Component={Products}></Route>
                     <Route path='/news' Component={News}></Route>
                     <Route path='/blog' Component={Blog}></Route>
+                    <Route path='/buynow' Component={BuyNow}></Route>
                 </Routes>
             </div>
         </>
