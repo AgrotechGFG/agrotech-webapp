@@ -2,8 +2,11 @@ import React from 'react'
 
 function Blog() {
     return (
-        <div>Blog</div>
+        <>
+            <h1>BLogs-Page</h1>
+        </>
     )
 }
 
 export default Blog
+

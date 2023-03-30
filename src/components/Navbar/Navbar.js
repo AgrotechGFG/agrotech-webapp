@@ -58,7 +58,7 @@ function Navbar() {
 
                 )
               }
-              else if (item.tittle === 'New') {
+              else if (item.tittle === 'News') {
                 return (
                   <li key={item.id} className={item.cName}>
                     <span><Link to={item.path} style={{ textDecoration: 'none', color: 'Black' }}>{item.tittle}</Link></span>
@@ -95,6 +95,10 @@ function Navbar() {
         </div>
 
 
+
+
+
+
       </div>
 
 
@@ -105,3 +109,4 @@ function Navbar() {
 }
 
 export default Navbar
+
